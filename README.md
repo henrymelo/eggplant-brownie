@@ -1,4 +1,4 @@
-#Conhecendo o Git 
+# Conhecendo o Git 
 1) O GIT é amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
 1.1) Histórico do teu trabalho
 1.2) Desenvolvimento descentralizado

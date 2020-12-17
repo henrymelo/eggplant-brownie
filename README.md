@@ -3,18 +3,24 @@
 ##### Instalação
 
 → Site oficial: https://git-scm.com/
+\
 → Instalação: https://git-scm.com/downloads
 
 ##### Jogo para treinar ramificação do Git
 
 https://learngitbranching.js.org/
 
- Git possui uma arquitetura distribuída, isso significa que todo desenvolvedor tem uma cópia local do projeto em que está trabalhando, e que ele não precisa de acesso a internet para criar seu histórico de
- 	Setting Up GIT
+ Git possui uma arquitetura distribuída, isso significa que todo desenvolvedor tem uma cópia local do projeto em que está trabalhando, e que ele não precisa de acesso a internet para criar seu histórico de alterações.
+ 	
+##### Setting Up GIT
+	
 $ git config --global user.name "Batman Campineiro"
+\
 $ git config --global user.email batman@ifsp.edu.br
+\
 $ git config --global color.ui true
-alterações.
+
+ ##### Repositório
  
  → Repositório:
 	→ diretório onde o Git armazena arquivos

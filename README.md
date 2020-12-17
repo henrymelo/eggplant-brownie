@@ -42,7 +42,7 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
 ## Exercícos, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
    - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie.
-   - c) A pastir da branch develop, faca duas branchs novas, executando o comando no terminal:
+   - c) A pastir da branch develop, faca duas branchs novas, executando os comandos no terminal:
         - git checkout develop
         - git checkout -b pasta_um
         - git pull
@@ -52,22 +52,22 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
         - git pull
         - git push
         - git push --set-upstream origin pasta_dois
-   - c) Altere o arquivo README.md na pasta_um e execute os comandos no terminal:
+   - d) Altere o arquivo README.md na pasta_um e execute os comandos no terminal:
       - git checkout pasta_um
       - add .
       - commit -m "commit pasta um"
       - pull
       - push
-   - d) Altere o arquivo README.md na pasta_dois e execute os comandos no terminal:
+   - e) Altere o arquivo README.md na pasta_dois e execute os comandos no terminal:
       - git checkout pasta_dois
       - add .
       - commit -m "commit pasta dois"
       - pull
       - push
-   - e) Provavelmente você terá conflitos neste momento, se for syncar as duas branchs, execute o comando no terminal:
+   - f) Provavelmente você terá conflitos neste momento, se for syncar as duas branchs, execute o comando no terminal:
       - git checkout pasta_um
       - git pull origin pasta_dois
       - git push
-   - f) Se não houve conflitos, tente alterar a mesma linha nas duas branchs. 
+   - g) Se não houve conflitos, tente alterar a mesma linha nas duas branchs. 
  
 

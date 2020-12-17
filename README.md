@@ -53,21 +53,25 @@ Initialize: Serve para inicializar um repositório vazio ou reinicializar um já
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PdXBu0vqEwoEmKiWzR-9XLqA0ZzxnpzF2A&usqp=CAU
 
-Clone: Utilizado para clonar o repositório;
+### Comandos principais do Git
 
-Add: Serve para adicionar um arquivo para o State Area, para que seja vinculado a um próximo commit;
+* Clone: Utilizado para clonar o repositório;
 
-Commit: Comando que serve para mover os arquivos do State Area para o repositório local;
+* Add: Serve para adicionar um arquivo para o State Area, para que seja vinculado a um próximo commit;
 
-Pull: Utilizado para buscar e trazer mudanças do repositório remoto para o repositório local, ou seja, unir os conteúdos dos arquivos alterados. Em alguns casos, pode ser necessária uma intervenção humana para realizar essa união;
+* Commit: Comando que serve para mover os arquivos do State Area para o repositório local;
 
-Push: Utilizado para enviar o arquivo do repositório local para o remoto;
+* Pull: Utilizado para buscar e trazer mudanças do repositório remoto para o repositório local, ou seja, unir os conteúdos dos arquivos alterados. Em alguns casos, pode ser necessária uma intervenção humana para realizar essa união;
 
-Merge: Serve para mesclar commits e Branchs na Branch atual;
+* Push: Utilizado para enviar o arquivo do repositório local para o remoto;
 
-Log: Permite ver o histórico de commits ou um específico.
+* Merge: Serve para mesclar commits e Branchs na Branch atual;
+
+* Log: Permite ver o histórico de commits ou um específico.
 
 ---
+### 1. O Git é um sistema de controle de versão de arquivos
+
 Amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
 - 1.1) Histórico do teu trabalho	Setting Up GIT
 $ git config --global user.name "Batman Campineiro"

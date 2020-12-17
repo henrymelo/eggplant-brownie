@@ -44,9 +44,11 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
         - git checkout -b pasta_um
         - git pull
         - git push
+        - git push --set-upstream origin pasta_um
         - git checkout -b pasta_dois
         - git pull
         - git push
+        - git push --set-upstream origin pasta_dois
    - c) Altere o arquivo README.md na pasta_um e execute os comandos no terminal:
       - git checkout pasta_um
       - add .

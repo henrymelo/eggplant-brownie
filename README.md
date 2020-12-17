@@ -79,15 +79,12 @@ Initialize: Serve para inicializar um repositório vazio ou reinicializar um já
 ### 1. O Git é um sistema de controle de versão de arquivos
 
 Amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
-- 1.1) Histórico do teu trabalho	Setting Up GIT
-$ git config --global user.name "Batman Campineiro"
-$ git config --global user.email batman@ifsp.edu.br
-$ git config --global color.ui true
-
+- 1.1) Histórico do teu trabalho	
 - 1.2) Desenvolvimento descentralizado
 - 1.3) Para evitar digitar a senha do git toda vez na mesma sessao, execute o comando no terminal:
 
       ssh-add -K ~/.ssh/id_rsa
+      
 ### 2)  Merges pull request
 - Em uma pull request, você propõe que as alterações feitas em um branch head sejam mescladas em um branch base, a menos que o branch head esteja em conflito com o branch base.
 ### 3) Sync com branch base

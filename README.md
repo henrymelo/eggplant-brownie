@@ -56,7 +56,8 @@ Para mesclar as modificações de sua Branch com os arquivos originais do projet
 Quais os comandos mais utilizados no Git?
 Existem alguns comandos que costumam ser mais utilizados por quem usa diariamente esse sistema de versionamento. Conheça alguns deles:
 Initialize: Serve para inicializar um repositório vazio ou reinicializar um já existente;
-
+\
+\
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLugJ_rmoED11ySmopbYH3iADsEHiiczoVfA&usqp=CAU" width="400" height="200">
 
 ### Comandos principais do Git

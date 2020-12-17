@@ -22,13 +22,13 @@ $ git config --global color.ui true
 
  ##### Repositório
  
- → Repositório:
-	→ diretório onde o Git armazena arquivos
-	→ geralmente, cada projeto fica em um repositório
-→ Repositório Local:
-	→ diretório na máquina local contendo os arquivos
-→ Repositório Remoto:
-	→ diretório em máquina remota contendo os arquivos
+* Repositório:
+  * diretório onde o Git armazena arquivos
+  * geralmente, cada projeto fica em um repositório
+* Repositório Local:
+  * diretório na máquina local contendo os arquivos
+* Repositório Remoto:
+  * diretório em máquina remota contendo os arquivos
       	
 ## Setting Up GIT
 $ git config --global user.name "Batman Campineiro"

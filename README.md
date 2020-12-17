@@ -1,8 +1,11 @@
 ## Conhecendo o Git 
-### 1. O Git é um sistema de controle de versão de arquivos
+
+##### Instalação
 
 → Site oficial: https://git-scm.com/
 → Instalação: https://git-scm.com/downloads
+
+##### Jogo para treinar ramificação do Git
 
 https://learngitbranching.js.org/
 

@@ -40,7 +40,8 @@ comando requerido
 
 Git trabalha em uma arquitetura em Branch (ou ramificações). Cada novo commit, ou seja, alteração do código, cria um novo ponto na ramificação
 
-[<img src="https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801U=300x120">](http://google.com.au/=100x20)
+![<img src="https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801U">|512x397,100%](http://google.com.au/=100x20)
+
 1. Clone do projeto:
 O primeiro passo para obter o código-fonte do projeto é cloná-lo em nossas máquinas, para que seus arquivos fiquem disponíveis localmente.
 
@@ -59,7 +60,7 @@ Quais os comandos mais utilizados no Git?
 Existem alguns comandos que costumam ser mais utilizados por quem usa diariamente esse sistema de versionamento. Conheça alguns deles:
 Initialize: Serve para inicializar um repositório vazio ou reinicializar um já existente;
 
-[<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PdXBu0vqEwoEmKiWzR-9XLqA0ZzxnpzF2A&usqp=CAU=300x120">](http://google.com.au/)
+![<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PdXBu0vqEwoEmKiWzR-9XLqA0ZzxnpzF2A&usqp=CAU=300x120">|512x397,100%](http://google.com.au/)
 
 ### Comandos principais do Git
 

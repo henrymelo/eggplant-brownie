@@ -3,6 +3,8 @@
 Amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
 - 1.1) Histórico do teu trabalho
 - 1.2) Desenvolvimento descentralizado
+- 1.3) Para evitar digitar a senha do git toda vez na mesma sessao, execute o comando no terminal:
+  - ssh-add -K ~/.ssh/id_rsa
 ### 2)  Merges pull request
 - Em uma pull request, você propõe que as alterações feitas em um branch head sejam mescladas em um branch base, a menos que o branch head esteja em conflito com o branch base.
 ### 3) Sync com branch base
@@ -31,6 +33,9 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
    - log README.md
    - log -p README.md
    - diff README.md
+### 7) Git stash
+    - git stash
+    - git stash apply
 ### 8) Exercícos, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
    - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie.
@@ -42,18 +47,22 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
         - git checkout -b pasta_dois
         - git pull
         - git push
-   - a) Tenha duas pastas com o mesmo projeto git.
-   - b) Atualize o conteudo do mesmo arquivo nas duas pastas, com informações diferentes, na mesma linha, por exemplo, no arquivo README.md 
-   - c) Na primeira pasta execute os comandos no terminal:
+   - c) Altere o arquivo README.md na pasta_um e execute os comandos no terminal:
+      - git checkout pasta_um
       - add .
       - commit -m "commit pasta um"
       - pull
       - push
-   - d) Na segunda pasta execute os comandos no terminal:
+   - d) Altere o arquivo README.md na pasta_dois e execute os comandos no terminal:
+      - git checkout pasta_dois
       - add .
       - commit -m "commit pasta dois"
       - pull
       - push
-   - e) Provavelmente você terá conflitos neste momento.   
+   - e) Provavelmente você terá conflitos neste momento, se for syncar as duas branchs, execute o comando no terminal:
+      - git checkout pasta_um
+      - git pull origin pasta_dois
+      - git push
+     f) Se não houve conflitos, tente alterar a mesma linha nas duas branchs. 
  
 

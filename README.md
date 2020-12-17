@@ -14,9 +14,9 @@ https://learngitbranching.js.org/
  	
 ##### Setting Up GIT
 	
-$ git config --global user.name "Batman Campineiro"
+$ git config --global user.name "Seu Nome"
 \
-$ git config --global user.email batman@ifsp.edu.br
+$ git config --global user.email root@localhost.com
 \
 $ git config --global color.ui true
 

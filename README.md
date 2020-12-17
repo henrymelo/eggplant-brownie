@@ -40,7 +40,8 @@ comando requerido
 
 Git trabalha em uma arquitetura em Branch (ou ramificações). Cada novo commit, ou seja, alteração do código, cria um novo ponto na ramificação
 
-[<img src="https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801U">](http://google.com.au/=100x20){:height="300" width="200"}
+[<img src="https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801U">](http://google.com.au/=100x20)
+![<img src="https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801U">](/img/post-bg-2015.jpg){:height="700px" width="400px"}
 
 1. Clone do projeto:
 O primeiro passo para obter o código-fonte do projeto é cloná-lo em nossas máquinas, para que seus arquivos fiquem disponíveis localmente.

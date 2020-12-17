@@ -33,10 +33,10 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
    - log README.md
    - log -p README.md
    - diff README.md
-### 7) Git stash
+### 8) Git stash
     - git stash
     - git stash apply
-### 8) Exercícos, simulando conflitos:
+## Exercícos, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
    - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie.
    - c) A pastir da branch develop, faca duas branchs novas, executando o comando no terminal:

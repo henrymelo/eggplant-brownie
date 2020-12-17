@@ -69,5 +69,18 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
       - git pull origin pasta_dois
       - git push
    - g) Se não houve conflitos, tente alterar a mesma linha nas duas branchs. 
- 
+   - h) Supondo que você alterou arquivos corretos em uma branch errada... tranquilo... utiliza o stash para transportar os arquivos para outra branch:
+      - git checkout pasta_um
+      - git status
+      - Realize algumas alterações no arquivo
+      - git status
+      - git diff
+      - git stash
+      - git status
+      - git checkout pasta_dois
+      - git stash apply
+      - git status
+      - git diff
+      - Verifique que seus arquivos vieram para a pasta_dois
+      
 

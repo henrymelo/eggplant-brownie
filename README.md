@@ -63,6 +63,6 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
       - git checkout pasta_um
       - git pull origin pasta_dois
       - git push
-     f) Se não houve conflitos, tente alterar a mesma linha nas duas branchs. 
+   - f) Se não houve conflitos, tente alterar a mesma linha nas duas branchs. 
  
 

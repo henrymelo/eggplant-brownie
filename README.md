@@ -19,23 +19,23 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
 #### 4.3) Adotando uma estratégia via VSCode
      - Analisando melhor estratégia
 #### 4.4) Conflitos de pod install, verifique as versões do pod local
-  - pod --version
-  - gem uninstall cocoapods
-  - gem uninstall cocoapods-core 
-  - gem install cocoapods -v 1.9.3
-  - gem install cocoapods-core -v 1.9.3
+    pod --version
+    gem uninstall cocoapods
+    gem uninstall cocoapods-core 
+    gem install cocoapods -v 1.9.3
+    gem install cocoapods-core -v 1.9.3
 #### 4.5) Conflitos de inserção de arquivos, checando a quantidade de conflitos via terminal.
    - grep -Rinc === app.xcodeproj/project.pbxproj
 ### 5) Nova branch com base na atual
-   - git checkout -b nova_branch_pra_treinar
-   - git push --set-upstream origin nova_branch_pra_treinar
+    - git checkout -b nova_branch_pra_treinar
+    - git push --set-upstream origin nova_branch_pra_treinar
 ### 6) Retornar para um commit específico
-   - git checkout hash_do_commit_especifico
+    - git checkout hash_do_commit_especifico
 ### 7) Analise com status, log e diff
-   - git status
-   - git log README.md
-   - git log -p README.md
-   - git diff README.md
+    - git status
+    - git log README.md
+    - git log -p README.md
+    - git diff README.md
 ### 8) Git stash
     - git stash
     - git stash apply

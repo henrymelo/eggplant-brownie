@@ -20,7 +20,7 @@ $ git config --global user.email batman@ifsp.edu.br
 \
 $ git config --global color.ui true
 
- ##### Repositório:
+ ##### Repositórios:
  
 * Repositório:
   * diretório onde o Git armazena arquivos

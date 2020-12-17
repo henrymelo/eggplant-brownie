@@ -1,8 +1,8 @@
 ## Conhecendo o Git 
 ### 1. O Git é um sistema de controle de versão de arquivos
 Amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
-1.1 Histórico do teu trabalho
-1.2. Desenvolvimento descentralizado
+- 1.1) Histórico do teu trabalho
+- 1.2) Desenvolvimento descentralizado
 ### 2)  Merges pull request
 - Em uma pull request, você propõe que as alterações feitas em um branch head sejam mescladas em um branch base, a menos que o branch head esteja em conflito com o branch base.
 ### 3) Sync com branch base
@@ -10,19 +10,19 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
 ### 4) Conflitos que normalmente acontecem em projetos colaborativos
    - both modified:   Pods/Pods.xcodeproj/project.pbxproj
    - both modified:   app.xcodeproj/project.pbxproj
-4.1) Abortar um merge e buscando uma estratégia pra merge com menor impacto
+#### 4.1) Abortar um merge e buscando uma estratégia pra merge com menor impacto
    - git merge --abort
-4.2) Adotando uma estratégia pra merge via terminal
+#### 4.2) Adotando uma estratégia pra merge via terminal
     - Identificando marcações de conflitos(<<<<<  ======= >>>>>>)
-4.3) Adotando uma estratégia via VSCode
+#### 4.3) Adotando uma estratégia via VSCode
      - Analisando melhor estratégia
-4.4) Conflitos de pod install, verifique as versões do pod local
+#### 4.4) Conflitos de pod install, verifique as versões do pod local
   - pod --version
   - gem uninstall cocoapods
   - gem uninstall cocoapods-core 
   - gem install cocoapods -v 1.9.3
   - gem install cocoapods-core -v 1.9.3
-4.5) Conflitos de inserção de arquivos, checando a quantidade de conflitos via terminal.
+#### 4.5) Conflitos de inserção de arquivos, checando a quantidade de conflitos via terminal.
    - grep -Rinc === app.xcodeproj/project.pbxproj
 ### 5) Nova branch com base na atual
    - git checkout -b MinhaOutraBranchPraTreino

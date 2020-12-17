@@ -31,27 +31,27 @@ comando requerido
 
 Git trabalha em uma arquitetura em Branch (ou ramificações). Cada novo commit, ou seja, alteração do código, cria um novo ponto na ramificação
 
-https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801
+[<img src="https://image.slidesharecdn.com/git-intro-091215075529-phpapp01/95/git-and-github-13-728.jpg?cb=1260938801U">](http://google.com.au/)
 
-1. Clone do projeto
+1. Clone do projeto:
 O primeiro passo para obter o código-fonte do projeto é cloná-lo em nossas máquinas, para que seus arquivos fiquem disponíveis localmente.
 
-2. Criação da Branch
+2. Criação da Branch:
 Ao criar uma Branch, estamos criando uma nova ramificação, totalmente independente, para podermos alterar os arquivos do projeto sem interferir nos originais. Esse processo é considerado uma boa prática quando se está trabalhando em nova funcionalidade.
 
-3. Commits
+3. Commits:
 Conforme vão sendo criados e alterados os arquivos, elas vão sendo divididas em commits. É importante que a descrição de cada commit seja objetiva, pois ela vai ficar salva no histórico das alterações.
 
-4. Hora do Push
+4. Hora do Push:
 Uma vez que a funcionalidade está totalmente finalizada, devemos enviar nossa Branch, com todas as alterações, de volta ao repositório remoto. Assim, ela ficará disponível para os demais contribuidores do projeto poderem ver e alterar.
 
-5 – Merge para juntar tudo
+5 – Merge para juntar tudo:
 Para mesclar as modificações de sua Branch com os arquivos originais do projeto da Branch principal ou máster, você pode utilizar o comando Merge. Após isso, é necessário dar um commit e um push, para enviar a ramificação máster mesclada ao repositório remoto e deixar tudo disponível para os demais contribuidores. Existe também o Pull Request, que geralmente tem relação com a contribuição em projetos open source. Basicamente, ele ocorre quando se pede para o dono do repositório que suas modificações sejam incluídas nele.
 Quais os comandos mais utilizados no Git?
 Existem alguns comandos que costumam ser mais utilizados por quem usa diariamente esse sistema de versionamento. Conheça alguns deles:
 Initialize: Serve para inicializar um repositório vazio ou reinicializar um já existente;
 
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PdXBu0vqEwoEmKiWzR-9XLqA0ZzxnpzF2A&usqp=CAU
+[<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PdXBu0vqEwoEmKiWzR-9XLqA0ZzxnpzF2A&usqp=CAU">](http://google.com.au/)
 
 ### Comandos principais do Git
 

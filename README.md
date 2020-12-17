@@ -72,7 +72,7 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
    - h) Supondo que você alterou arquivos corretos em uma branch errada... tranquilo... utiliza o stash para transportar os arquivos para outra branch:
       - git checkout pasta_um
       - git status
-      - Realize algumas alterações no arquivo
+      ##### Realize algumas alterações no arquivo #####
       - git status
       - git diff
       - git stash
@@ -81,6 +81,6 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
       - git stash apply
       - git status
       - git diff
-      - Verifique que seus arquivos vieram para a pasta_dois
+      ##### Verifique que seus arquivos vieram para a pasta_dois #####
       
 

@@ -30,10 +30,7 @@ $ git config --global color.ui true
 * Repositório Remoto:
   * diretório em máquina remota contendo os arquivos
       	
-## Setting Up GIT
-$ git config --global user.name "Batman Campineiro"
-$ git config --global user.email batman@ifsp.edu.br
-$ git config --global color.ui true
+## Obtendo Ajuda
 
 $ git help algum_comando → mostra a documentação do
 comando requerido

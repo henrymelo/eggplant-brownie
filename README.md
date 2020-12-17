@@ -34,6 +34,14 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
 ### 8) Exercícos, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
    - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie.
+   - c) A pastir da branch develop, faca duas branchs novas, executando o comando no terminal:
+        - git checkout develop
+        - git checkout -b pasta_um
+        - git pull
+        - git push
+        - git checkout -b pasta_dois
+        - git pull
+        - git push
    - a) Tenha duas pastas com o mesmo projeto git.
    - b) Atualize o conteudo do mesmo arquivo nas duas pastas, com informações diferentes, na mesma linha, por exemplo, no arquivo README.md 
    - c) Na primeira pasta execute os comandos no terminal:

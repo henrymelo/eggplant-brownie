@@ -1,12 +1,13 @@
-# Conhecendo o Git 
-1. O GIT é amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
-- 1.1) Histórico do teu trabalho
-- 1.2) Desenvolvimento descentralizado
-2)  Merges pull request
+## Conhecendo o Git 
+### 1. O Git é um sistema de controle de versão de arquivos
+Amplamente usado para versionar código de modo colaborativo, utilizando branchs/ramos de produção de código, utilizando merge e impedindo sobreposição de código.
+1.1 Histórico do teu trabalho
+1.2. Desenvolvimento descentralizado
+### 2)  Merges pull request
 - Em uma pull request, você propõe que as alterações feitas em um branch head sejam mescladas em um branch base, a menos que o branch head esteja em conflito com o branch base.
-3) Sync com branch base
+### 3) Sync com branch base
    - git pull origin branch_base
-4) Conflitos que normalmente acontecem em projetos colaborativos
+### 4) Conflitos que normalmente acontecem em projetos colaborativos
    - both modified:   Pods/Pods.xcodeproj/project.pbxproj
    - both modified:   app.xcodeproj/project.pbxproj
 4.1) Abortar um merge e buscando uma estratégia pra merge com menor impacto
@@ -23,14 +24,14 @@
   - gem install cocoapods-core -v 1.9.3
 4.5) Conflitos de inserção de arquivos, checando a quantidade de conflitos via terminal.
    - grep -Rinc === app.xcodeproj/project.pbxproj
-5) Nova branch com base na atual
+### 5) Nova branch com base na atual
    - git checkout -b MinhaOutraBranchPraTreino
-6) Retornar para um commit específico
-7) Analise de log e diff
+### 6) Retornar para um commit específico
+### 7) Analise de log e diff
    - log README.md
    - log -p README.md
    - diff README.md
-8) Exercícos, simulando conflitos:
+### 8) Exercícos, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
    - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie.
    - a) Tenha duas pastas com o mesmo projeto git.

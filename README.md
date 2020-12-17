@@ -58,7 +58,7 @@ Existem alguns comandos que costumam ser mais utilizados por quem usa diariament
 Initialize: Serve para inicializar um repositório vazio ou reinicializar um já existente;
 \
 \
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG89lXMo9VPYFh0Qywv_qJqbLFWy_KsQLkw&usqp=CAU" width="400" height="200">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLugJ_rmoED11ySmopbYH3iADsEHiiczoVfA&usqp=CAU" width="400" height="200">
 
 ### Comandos principais do Git
 

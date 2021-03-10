@@ -1,6 +1,6 @@
 ## Conhecendo o Git 
 
-##### Instalação
+##### Instalação do que eu quiser
 
 → Site oficial: https://git-scm.com/
 \

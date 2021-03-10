@@ -125,7 +125,10 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
 ## Exercícios, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
    - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie:
-   - git clone seu/git/eggplant-brownie.git
+   
+    git clone seu/git/eggplant-brownie.git
+    git status
+    
    - c) A pastir da branch develop, faca duas branchs novas, executando os comandos no terminal:
    
     git checkout develop

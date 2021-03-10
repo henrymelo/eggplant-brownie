@@ -169,7 +169,9 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
     git diff
    ##### Verifique que seus arquivos vieram para a pasta_dois #####
 
+
+
 ====================================================================
-ALTERAÇÃO FEITA POR RAY CARLOS
+ALTERAÇÃO DO ARQUIVO PELO RAY CARLOS NA BRANCH pasta_dois
       
 

@@ -129,7 +129,7 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
     git clone seu/git/eggplant-brownie.git
     git status
     
-   - c) A pastir da branch develop, faca duas branchs novas, executando os comandos no terminal:
+   - c) A partir da branch develop, faca duas branchs novas, executando os comandos no terminal:
    
     git checkout develop
     git checkout -b pasta_um

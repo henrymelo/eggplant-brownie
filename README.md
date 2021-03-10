@@ -120,9 +120,12 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
 ### 8) Git stash
     git stash
     git stash apply
-## Exercícos, simulando conflitos:
+
+<a id="exercicios"></a>
+## Exercícios, simulando conflitos:
    - a) No decorrer do curso alura, será necessário fazer o fork deste projeto https://github.com/henrymelo/eggplant-brownie
-   - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie.
+   - b) Pelo teu git, faça um clone numa pasta local do teu projeto eggplant-brownie:
+   - git clone seu/git/eggplant-brownie.git
    - c) A pastir da branch develop, faca duas branchs novas, executando os comandos no terminal:
    
     git checkout develop

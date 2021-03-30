@@ -111,7 +111,11 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
     git checkout -b nova_branch_pra_treinar
     git push --set-upstream origin nova_branch_pra_treinar
 ### 6) Retornar para um commit específico
+   - Localize uma referência no histórico com "git log", depois navegue pelo histórico com "checkout" e faça uma nova branch, baseado num hash escolhido.
+  
+    git log
     git checkout hash_do_commit_especifico
+    git checkout -b nova_branch_baseado_num_hash_do_commit_especifico
 ### 7) Analise com status, log e diff
     git status
     git log README.md

@@ -106,7 +106,9 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
     gem install cocoapods -v 1.9.3
     gem install cocoapods-core -v 1.9.3
 #### 4.5) Conflitos de inserção de arquivos, checando a quantidade de conflitos via terminal.
-    grep -Rinc === app.xcodeproj/project.pbxproj
+    grep -Rin "===" app.xcodeproj/project.pbxproj
+    grep -Rinc "===" app.xcodeproj/project.pbxproj
+    grep -Rinc "===" .
 ### 5) Nova branch com base na atual
     git checkout -b nova_branch_pra_treinar
     git push --set-upstream origin nova_branch_pra_treinar

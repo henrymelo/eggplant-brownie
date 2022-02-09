@@ -149,17 +149,17 @@ Amplamente usado para versionar código de modo colaborativo, utilizando branchs
    - d) Altere o arquivo README.md na pasta_um e execute os comandos no terminal:
    
     git checkout pasta_um
-    add .
-    commit -m "commit pasta um"
-    pull
-    push
+    git add .
+    git commit -m "commit pasta um"
+    git pull
+    git push
    - e) Altere o arquivo README.md na pasta_dois e execute os comandos no terminal:
    
     git checkout pasta_dois
-    add .
-    commit -m "commit pasta dois"
-    pull
-    push
+    git add .
+    git commit -m "commit pasta dois"
+    git pull
+    git push
    - f) Provavelmente você terá conflitos neste momento, se for syncar as duas branchs, execute o comando no terminal:
    
     git checkout pasta_um
